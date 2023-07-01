@@ -1468,29 +1468,6 @@ text-align: center;
     <script src="jquery-3.4.1.js"></script>
     <script src="npm/popper_js_1.16.0/dist/umd/popper.min.js"></script>
     <script src="bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            if (jQuery(window).width() > 480) {
-                $('.hero').parallax({
-                    imageSrc: 'pv2/img/bg1.jpg',
-                    naturalWidth: 600,
-                    naturalHeight: 400
-                });
-            }
-            setTimeout(function() {
-                $('#button_chechout_hero').show();
-                $('#button_chechout_final').show();
-            }, 1575000);
-        });
-        var scrollEventHandler = function() {
-            window.scroll(0, window.pageYOffset)
-        }
-        window.addEventListener("scroll", scrollEventHandler, false);
-        document.getElementById("locationJS").innerHTML = geoplugin_city();
-        function redirect() {
-            location.href = ""+src;
-        }
-    </script>
     <script src="pv2/js/scripts2.js"></script>
     <script src="pv2/js/jquery.enllax.min.js"></script>
     <script src="pv2/js/parallax.js"></script>
